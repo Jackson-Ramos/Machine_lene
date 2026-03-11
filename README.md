@@ -15,25 +15,25 @@ Prof. Bruno Rafael Araújo Vasconcelos
 
 ---
 
-##  Sumário
+## Sumário
 
-- [Introdução](#-introdução)
-- [Objetivo](#-objetivo)
-- [Doenças Classificadas](#-doenças-classificadas)
-- [Dataset](#-dataset)
-- [Arquitetura do Modelo](#-arquitetura-do-modelo)
-- [Resultados Esperados](#-resultados-esperados)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Pré-requisitos](#-pré-requisitos)
-- [Como Instalar](#-como-instalar)
-- [Como Rodar](#-como-rodar)
-- [Como Testar](#-como-testar)
-- [Métricas Avaliadas](#-métricas-avaliadas)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Introdução](#introdução)
+- [Objetivo](#objetivo)
+- [Doenças Classificadas](#doenças-classificadas)
+- [Dataset](#dataset)
+- [Arquitetura do Modelo](#arquitetura-do-modelo)
+- [Resultados Esperados](#resultados-esperados)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Pré-requisitos](#pré-requisitos)
+- [Como Instalar](#como-instalar)
+- [Como Rodar](#como-rodar)
+- [Como Testar](#como-testar)
+- [Métricas Avaliadas](#métricas-avaliadas)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 ---
 
-##  Introdução
+## Introdução
 
 O diagnóstico médico correto é um dos maiores desafios da saúde moderna. Um mesmo conjunto de sintomas pode indicar doenças completamente distintas, e um diagnóstico incorreto pode trazer consequências graves ao paciente.
 
@@ -43,7 +43,7 @@ O trabalho segue o fluxo completo de um projeto de ciência de dados: da anális
 
 ---
 
-##  Objetivo
+## Objetivo
 
 Desenvolver um modelo de aprendizagem de máquina capaz de **prever, a partir de um conjunto de sintomas, qual doença o paciente possui** dentre 3 condições clínicas selecionadas, avaliando o modelo com métricas consistentes e documentando todos os resultados em formato científico.
 
@@ -57,7 +57,7 @@ Desenvolver um modelo de aprendizagem de máquina capaz de **prever, a partir de
 
 ---
 
-##  Doenças Classificadas
+## Doenças Classificadas
 
 | # | Doença | Descrição |
 |---|--------|-----------|
@@ -69,7 +69,7 @@ Essas três doenças foram escolhidas por apresentarem **perfis de sintomas dist
 
 ---
 
-##  Dataset
+## Dataset
 
 - **Fonte:** [Kaggle — Diseases and Symptoms Dataset](https://www.kaggle.com/datasets/dhivyeshrk/diseases-and-symptoms-dataset)
 - **Total de colunas:** 378 (1 target + 377 sintomas)
@@ -81,7 +81,7 @@ Essas três doenças foram escolhidas por apresentarem **perfis de sintomas dist
 
 ---
 
-##  Arquitetura do Modelo
+## Arquitetura do Modelo
 
 ```
 Dataset Completo (377 features)
@@ -114,7 +114,7 @@ Dataset Completo (377 features)
 
 ---
 
-##  Resultados Esperados
+## Resultados Esperados
 
 Com base nas características do dataset e na escolha das 3 doenças, esperamos os seguintes resultados ao executar o projeto:
 
@@ -142,7 +142,7 @@ Com base nas características do dataset e na escolha das 3 doenças, esperamos 
 
 ---
 
-##  Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 disease-prediction-ml/
@@ -167,7 +167,7 @@ disease-prediction-ml/
 
 ---
 
-##  Pré-requisitos
+## Pré-requisitos
 
 - **Python** 3.8 ou superior
 - **Jupyter Notebook** ou **JupyterLab**
@@ -175,7 +175,7 @@ disease-prediction-ml/
 
 ---
 
-##  Como Instalar
+## Como Instalar
 
 ### 1. Clone o repositório
 
@@ -217,7 +217,7 @@ disease-prediction-ml/
 
 ---
 
-##  Como Rodar
+## Como Rodar
 
 ### Opção 1 — Interface Jupyter (recomendado)
 
@@ -247,7 +247,7 @@ jupyter nbconvert --to notebook --execute disease_prediction.ipynb --output dise
 
 ---
 
-##  Como Testar
+## Como Testar
 
 ### Verificar se a instalação está correta
 
@@ -307,7 +307,7 @@ print(f"Probabilidades       : {dict(zip(le.classes_, probabilidade[0].round(3))
 
 ---
 
-##  Métricas Avaliadas
+## Métricas Avaliadas
 
 | Métrica | Descrição |
 |---|---|
@@ -321,7 +321,7 @@ print(f"Probabilidades       : {dict(zip(le.classes_, probabilidade[0].round(3))
 
 ---
 
-##  Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Biblioteca | Versão | Uso |
 |---|---|---|
@@ -334,7 +334,7 @@ print(f"Probabilidades       : {dict(zip(le.classes_, probabilidade[0].round(3))
 
 ---
 
-##  Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos — **UNIFACISA, 2026**.
 
